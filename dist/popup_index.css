@@ -74,10 +74,6 @@ header > nav > p {
 header > nav > p:hover {
     color: white;
 }
-
-main {
-    height: 100%;
-}
 /*#endregion*/
 
 /*#region UI*/
@@ -107,11 +103,21 @@ button:active {
     background-color: #245fb7;
 }
 
+input {
+    padding: 0.5rem 1rem;
+
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
 section {
     display: none;
 
     width: 100%;
     height: 100%;
+
+    padding: 16px;
 }
 
 #key-warning {
@@ -123,5 +129,31 @@ section {
 
     width: 100%;
     height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+.settings-row {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+.settings-row ~ p {
+    margin-left: 56px;
+}
+
+
+.settings-row > input {
+    width: 100%;
+}
+
+.settings-row > label {
+    white-space: nowrap;
+    line-height: 2rem;
 }
 /*#endregion*/
