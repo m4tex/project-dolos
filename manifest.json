@@ -1,8 +1,0 @@
-{
-  "manifest_version" : 3,
-  "name" : "OpenAI Assistant",
-  "version" : "2022.1",
-  "action" : {
-    "default_popup" : "popup_index.html"
-  }
-}

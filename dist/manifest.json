@@ -1,0 +1,13 @@
+{
+  "manifest_version" : 3,
+  "name" : "OpenAI Assistant",
+  "version" : "2022.1",
+  "author": "m4tex#5886",
+  "action" : {
+    "default_popup" : "popup_index.html"
+  },
+  "background" : {
+    "service_worker" : "scripts/background.js"
+  },
+  "permissions" : ["contextMenus", "storage"]
+}

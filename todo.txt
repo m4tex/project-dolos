@@ -1,0 +1,5 @@
+Playground mini
+Grammar check in context menu
+Math/Physics/Essay templates
+Prompt by selection in context menu
+Expense tracker
