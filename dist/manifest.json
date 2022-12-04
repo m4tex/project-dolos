@@ -1,7 +1,7 @@
 {
   "manifest_version" : 3,
   "name" : "OpenAI Assistant",
-  "version" : "2022.1",
+  "version" : "1.0.0",
   "author": "m4tex#5886",
   "action" : {
     "default_popup" : "popup_index.html"

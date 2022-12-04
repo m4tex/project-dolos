@@ -35,10 +35,11 @@ header > span {
     /*transition-duration: 300ms;*/
     width: 24px;
     aspect-ratio: 1;
+    color: lightgray;
 }
 
 header > span:hover {
-    color: lightgray;
+    color: white;
     /*transform: rotate(180deg) translateY(0.75px); !*Weird transform-origin, will use translate to make it less visible*!*/
 }
 
@@ -68,6 +69,9 @@ header > nav > p {
 
 .header-selected {
     color: white;
+}
+
+.header-selected:not(span) {
     border-bottom: 3px solid dodgerblue;
 }
 
@@ -137,6 +141,7 @@ main {
 
 .settings-row {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     gap: 8px;
 
@@ -147,9 +152,15 @@ main {
     margin-left: 56px;
 }
 
+/*Error Message*/
+.settings-row > p {
+    color: red;
+    width: 100%;
+    margin-left: 56px;
+}
 
 .settings-row > input {
-    width: 100%;
+    flex-grow: 2;
 }
 
 .settings-row > label {

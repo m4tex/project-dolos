@@ -10,7 +10,7 @@
 <body>
 <header>
     <nav>
-        <p class="header-selected">Playground</p>
+        <p>Playground</p>
         <p>Usage</p>
         <p>Templates</p>
     </nav>
@@ -35,9 +35,10 @@
     </section>
     <section id="settings">
         <div class="settings-row">
+            <p></p>
             <label for="api-key">API Key</label>
             <input type="password" id="api-key">
-            <button>Save</button>
+            <button id="save-api-key">Save</button>
         </div>
             <p>You can get your API Key
                 <a href="https://beta.openai.com/account/api-keys" target="_blank">
@@ -47,5 +48,6 @@
 
 <script src="scripts/routing.js" type="module"></script>
 <script src="scripts/index.js" type="module"></script>
+<script src="scripts/settings.js" type="module"></script>
 </body>
 </html>
