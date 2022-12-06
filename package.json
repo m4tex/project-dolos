@@ -1,0 +1,18 @@
+{
+  "name": "project-dolos",
+  "version": "1.0.0",
+  "description": "A Chrome extension adding OpenAI's API integration into your browser!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4tex/project-dolos.git"
+  },
+  "author": "m4tex#5886",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4tex/project-dolos/issues"
+  },
+  "homepage": "https://github.com/m4tex/project-dolos#readme",
+  "dependencies": {
+    "@types/chrome": "^0.0.203"
+  }
+}
